@@ -163,4 +163,16 @@ body {
             }
         }
     }
+    .gallery {
+        img {
+            float: left;
+            width: 25%;
+            transition: .4s;
+
+            &:hover {
+                opacity: 0.8;
+                cursor: pointer;
+            }
+        }
+    }
 }
